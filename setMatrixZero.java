@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.* ;
+
 class setMatrixZero{
     public static void main(String[] args){
         int matrix[][]={{1,0,1},{1,1,1},{1,1,3},{2,3,0}};
@@ -16,7 +15,7 @@ class setMatrixZero{
 
 
 class Solution {
-    public static void setZeros(int matrix[][]) {
+    public void setZeros(int matrix[][]) {
        int col0 = 1, rows = matrix.length, cols = matrix[0].length;
 
         for (int i = 0; i < rows; i++) {
